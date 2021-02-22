@@ -12,7 +12,7 @@ The term _monitoring_ is used to describe methods that enable **Anomaly Detectio
 Furthermore it is being distinguished between _whitebox monitoring_ and _blackbox monitoring_.
 
 
-Inten                   | Whitebox Monitoring | Blackbox Monitoring
+Intent                  | Whitebox Monitoring | Blackbox Monitoring
 ------------------------|---------------------|--------------------
 Capacity Planning       | x                   | -
 Anomaly Detection       | x                   | x
@@ -34,9 +34,9 @@ There are various roles within the SCS scope that interact from different viewpo
 Role                    | Capacity Planning | Anomaly Detection | Operational Visibility
 ------------------------|-------------------|-------------------|-----------------------
 Operator (Provider)     | x                 | x                 | x
-Supporter (Provider)    |                   |                   | x
+Supporter (Provider)    | -                 |(x)                | x
 Integrator              | (x)               | x                 |(x)
-Developer               |                   | x                 |
+Developer               | -                 | x                 | -
 
 
 Aside from these roles there are further cases that will use data aggregated as part of the monitoring:
